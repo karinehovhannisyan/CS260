@@ -2,7 +2,7 @@ import ij.ImagePlus;
 import ij.process.ImageProcessor;
 import ij.plugin.filter.PlugInFilter;
 import java.awt.Color;
-public class BinaryLayer0 implements PlugInFilter {
+public class Binary_Layer0 implements PlugInFilter {
     public double bottom(int x) {
         return 0.9848 * x - 6.7474;
     }
