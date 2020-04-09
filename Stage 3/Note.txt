@@ -1,0 +1,2 @@
+This filter considers region finding algorithm on the images and works on the images that DO show the non-standard behavior only.
+For the ordinary ones we should use calibration backwards..
