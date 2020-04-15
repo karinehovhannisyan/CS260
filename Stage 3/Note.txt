@@ -1,2 +1,5 @@
 This filter considers region finding algorithm on the images and works on the images that DO show the non-standard behavior only.
-For the ordinary ones we should use calibration backwards..
+For the ordinary ones we should use backwards calibration.
+
+The method is not ideal, sometimes the program confuses ears and lips, so another good technique would be to eliminate the non-centroid part of the face for 
+frontal pictures and the right or left half if the person's head is rotated.
